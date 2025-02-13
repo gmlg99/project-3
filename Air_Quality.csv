@@ -1,0 +1,141 @@
+Unique ID,Indicator ID,Name,Measure Info,Geo Type Name,Geo Join ID,Geo Place Name,Time Period,Start_Date,Data Value
+410725,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2016,12/31/15,7.8
+549749,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2017,1/1/17,18.5
+179441,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2013,12/1/12,18.7
+742158,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2021,1/1/21,6.5
+547363,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2017,1/1/17,7.2
+549755,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2017,1/1/17,17.9
+179431,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2011,12/1/10,21.5
+179656,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2011,12/1/10,9.8
+825807,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2022,1/1/22,15.4
+179439,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2013,12/1/12,19.9
+179664,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2013,12/1/12,8.7
+547357,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2017,1/1/17,7.5
+179434,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2012,12/1/11,20.6
+179433,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2012,12/1/11,21
+667033,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2020,1/1/20,16
+740883,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2021,1/1/21,16.7
+643309,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2019,1/1/19,21.7
+179646,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2009,12/1/08,10.1
+179426,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2010,12/1/09,21
+179435,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2012,12/1/11,28.7
+179440,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2013,12/1/12,28
+549752,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2017,1/1/17,24.6
+179660,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2012,12/1/11,10.9
+179665,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2013,12/1/12,10.7
+547360,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2017,1/1/17,8.7
+179645,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2009,12/1/08,12.6
+740886,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2021,1/1/21,20
+179430,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2011,12/1/10,31
+179420,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2009,12/1/08,33.9
+410728,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2016,12/31/15,9
+179662,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2012,12/1/11,8.4
+742161,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2021,1/1/21,6.2
+549758,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2017,1/1/17,13.4
+333949,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2015,1/1/15,7.7
+179432,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2011,12/1/10,16.2
+179422,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2009,12/1/08,16.8
+412426,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2016,12/31/15,13.5
+602699,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2018,1/1/18,12.9
+410734,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2016,12/31/15,6.8
+667051,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2020,1/1/20,11.6
+336481,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2015,1/1/15,25.2
+667039,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2020,1/1/20,20.5
+179425,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2010,12/1/09,30.6
+179657,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2011,12/1/10,9.4
+179655,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2011,12/1/10,11.9
+333943,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2015,1/1/15,10.2
+605654,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2018,1/1/18,8.5
+179650,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2010,12/1/09,11.6
+742155,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2021,1/1/21,7.4
+179658,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2012,12/1/11,9.5
+179659,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2012,12/1/11,9
+742149,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2021,1/1/21,6.6
+742152,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2021,1/1/21,6.6
+179438,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2013,12/1/12,19.9
+549746,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2017,1/1/17,19.4
+740880,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2021,1/1/21,16.5
+179653,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2011,12/1/10,10.8
+179643,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2009,12/1/08,11.1
+333940,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2015,1/1/15,8.7
+669850,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2020,1/1/20,6.1
+179429,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2011,12/1/10,22.8
+179418,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2009,12/1/08,24.5
+336475,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2015,1/1/15,20
+412420,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2016,12/31/15,24.4
+605648,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2018,1/1/18,7.3
+179437,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2012,12/1/11,14.5
+825798,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2022,1/1/22,11.2
+179424,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2010,12/1/09,22.7
+333937,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2015,1/1/15,9.2
+669853,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2020,1/1/20,6.1
+211437,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2014,12/1/13,10.9
+179654,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2011,12/1/10,10.2
+179644,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2009,12/1/08,10.5
+649657,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2019,1/1/19,6.5
+410731,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2016,12/31/15,7.2
+643312,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2019,1/1/19,15.7
+412423,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2016,12/31/15,17.7
+179661,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2012,12/1/11,8.6
+179649,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2010,12/1/09,9.7
+643306,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2019,1/1/19,16.5
+643303,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2019,1/1/19,16
+412417,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2016,12/31/15,18.5
+211435,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2014,12/1/13,9.3
+547354,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2017,1/1/17,7.7
+605651,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2018,1/1/18,7.2
+211390,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2014,12/1/13,19.8
+211393,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2014,12/1/13,18.9
+547366,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2017,1/1/17,6.8
+179442,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2013,12/1/12,13.8
+740892,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2021,1/1/21,12.8
+336487,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2015,1/1/15,13.7
+740889,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2021,1/1/21,15.5
+179421,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2009,12/1/08,22.2
+211436,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2014,12/1/13,9.1
+179427,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2010,12/1/09,15.4
+179666,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2013,12/1/12,8.4
+211438,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2014,12/1/13,8.6
+179419,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2009,12/1/08,24.1
+179428,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2011,12/1/10,22.7
+667027,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2020,1/1/20,17.1
+211439,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2014,12/1/13,8.4
+211392,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2014,12/1/13,26.7
+336478,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2015,1/1/15,19.3
+602693,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2018,1/1/18,23.4
+669841,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2020,1/1/20,5.5
+669847,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2020,1/1/20,7.2
+179651,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2010,12/1/09,9.2
+333946,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2015,1/1/15,8.4
+669844,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2020,1/1/20,6.1
+412414,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2016,12/31/15,18.4
+602687,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2018,1/1/18,17.7
+410722,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2016,12/31/15,7.8
+179663,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2013,12/1/12,9.1
+179423,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2010,12/1/09,22.2
+179652,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2010,12/1/09,8.8
+649654,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2019,1/1/19,8.3
+823327,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2022,1/1/22,5.2
+179647,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2009,12/1/08,9.8
+179648,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2010,12/1/09,10.1
+211391,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2014,12/1/13,20
+823330,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2022,1/1/22,5.7
+179667,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2013,12/1/12,8
+649648,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2019,1/1/19,6.9
+823339,365,Fine particles (PM 2.5),mcg/m3,Borough,1,Bronx,Annual Average 2022,1/1/22,6.1
+336484,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2015,1/1/15,18.5
+825810,375,Nitrogen dioxide (NO2),ppb,Borough,1,Bronx,Annual Average 2022,1/1/22,16
+605660,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2018,1/1/18,6.4
+605657,365,Fine particles (PM 2.5),mcg/m3,Borough,4,Queens,Annual Average 2018,1/1/18,6.8
+179436,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2012,12/1/11,19.4
+667045,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2020,1/1/20,14.8
+602696,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2018,1/1/18,17.2
+602690,375,Nitrogen dioxide (NO2),ppb,Borough,2,Brooklyn,Annual Average 2018,1/1/18,17.8
+211394,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2014,12/1/13,14.2
+823333,365,Fine particles (PM 2.5),mcg/m3,Borough,3,Manhattan,Annual Average 2022,1/1/22,7
+649660,365,Fine particles (PM 2.5),mcg/m3,Borough,5,Staten Island,Annual Average 2019,1/1/19,5.9
+825804,375,Nitrogen dioxide (NO2),ppb,Borough,3,Manhattan,Annual Average 2022,1/1/22,19.1
+643315,375,Nitrogen dioxide (NO2),ppb,Borough,5,Staten Island,Annual Average 2019,1/1/19,11.9
+825801,375,Nitrogen dioxide (NO2),ppb,Borough,4,Queens,Annual Average 2022,1/1/22,14.9
+649651,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2019,1/1/19,6.7
+823336,365,Fine particles (PM 2.5),mcg/m3,Borough,2,Brooklyn,Annual Average 2022,1/1/22,5.8
