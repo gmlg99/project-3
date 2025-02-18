@@ -1,4 +1,3 @@
-
 allboroughs = [];
 pollutionParticles = [];
 NitrogenBrooklynpollutionData = {};
@@ -23,7 +22,7 @@ let summary = {
         "Fine particles (PM 2.5)" : {sum: 0, count:0},
         "Nitrogen dioxide (NO2)" : {sum: 0, count:0}
     },
-    "Staten Island": {
+    "StatenIsland": {
         "Fine particles (PM 2.5)" : {sum: 0, count:0},
         "Nitrogen dioxide (NO2)" : {sum: 0, count:0}
     }
@@ -56,6 +55,31 @@ for(let i =0; i < jsonData.length; i++){
 }
 
 console.log(pollutionAverage);
+
+
+let boroughNames = Object.keys(pollutionAverage); //puts keys --- borough names --- inside a list
+console.log(boroughNames);
+
+let pollutantData = Object.values(pollutionAverage); //puts values of each boroughs -- pollutant info ---inside a list 
+console.log(pollutantData);
+
+/*Brooklyn*/ 
+let BrooklynValues = Object.values(pollutionAverage.Brooklyn);
+console.log(BrooklynValues);
+
+/*Queens*/ 
+let QueensValues = Object.values(pollutionAverage.Queens);
+
+/*Bronx*/
+let BronxValues = Object.values(pollutionAverage.Bronx);
+
+/*Manhattan*/
+let ManhattanValues = Object.values(pollutionAverage.Manhattan);
+
+/*StatenIsland*/
+let StatenIslandValues = Object.values(pollutionAverage.StatenIsland);
+
+
 
 
 
