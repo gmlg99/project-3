@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Series Chart</title>
+
+    <!-- Load Chart.js and date-fns adapter -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+</head>
+<body>
+    <h2>NYC Air Quality Time Series</h2>
+    
+    <label for="borough">Select Borough:</label>
+    <select id="borough" onchange="updateChart()">
+        <option value="Brooklyn">Brooklyn</option>
+        <option value="Queens">Queens</option>
+        <option value="Manhattan">Manhattan</option>
+        <option value="Bronx">Bronx</option>
+        <option value="Staten Island">Staten Island</option>
+    </select>
+
+    <canvas id="timeSeriesChart"></canvas>
+
+    <script>
+        let airQualityData = [];
+
+        // Load the JSON data
+        fetch('air_quality.js')
+            .then(response => response.json())
+            .then(data => {
+                airQualityData = data;
+                updateChart();
+            });
+
+        let ctx = document.getElementById('timeSeriesChart').getContext('2d');
+        let timeSeriesChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                datasets: [{
+                    label: 'PM 2.5 (mcg/m³)',
+                    borderColor: 'blue',
+                    backgroundColor: 'rgba(0, 0, 255, 0.1)',
+                    data: [],
+                    fill: true
+                }, {
+                    label: 'NO2 (ppb)',
+                    borderColor: 'red',
+                    backgroundColor: 'rgba(255, 0, 0, 0.1)',
+                    data: [],
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        type: 'time',
+                        time: {
+                            unit: 'year'
+                        },
+                        title: {
+                            display: true,
+                            text: 'Year'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Concentration'
+                        }
+                    }
+                }
+            }
+        });
+
+        function updateChart() {
+            const selectedBorough = document.getElementById('borough').value;
+            
+            const filteredPM25 = airQualityData
+                .filter(entry => entry.geo_place_name === selectedBorough && entry.name.includes('PM 2.5'))
+                .sort((a, b) => new Date(a.start_date) - new Date(b.start_date));
+
+            const filteredNO2 = airQualityData
+                .filter(entry => entry.geo_place_name === selectedBorough && entry.name.includes('NO2'))
+                .sort((a, b) => new Date(a.start_date) - new Date(b.start_date));
+
+            timeSeriesChart.data.labels = filteredPM25.map(entry => new Date(entry.start_date));
+            timeSeriesChart.data.datasets[0].data = filteredPM25.map(entry => ({ x: new Date(entry.start_date), y: entry.data_value }));
+            timeSeriesChart.data.datasets[1].data = filteredNO2.map(entry => ({ x: new Date(entry.start_date), y: entry.data_value }));
+
+            timeSeriesChart.update();
+        }
+    </script>
+</body>
+</html>
