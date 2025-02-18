@@ -1,4 +1,4 @@
-[
+var airQualityData =[
     {
         "unique_id": 410725,
         "indicator_id": 365,
@@ -109,7 +109,7 @@
         "time_period": "Annual Average 2013",
         "start_date": "2012-12-01",
         "data_value": 19.9
-    }, {
+    },  {
         "unique_id": 179664,
         "indicator_id": 365,
         "name": "Fine particles (PM 2.5)",
@@ -1540,4 +1540,7 @@
         "start_date": "2022-01-01",
         "data_value": 5.8
     }
-]
+];
+
+// This logs all air quality data when the file loads
+console.log("Loaded Air Quality Data:", airQualityData);
