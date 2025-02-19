@@ -29,9 +29,9 @@ let summary = {
 };
 
 //Loops through entire JSON
-for(let i =0; i < jsonData.length; i++){
+for(let i =0; i < airQualityData.length; i++){
 
-    let entry = jsonData[i]; // gets the current JSON from the array
+    let entry = airQualityData[i]; // gets the current JSON from the array
 
     //Gets data for specific particle within a borough and adds the data_value to the current sum and count
     summary[entry.geo_place_name][entry.name].sum += entry.data_value;
