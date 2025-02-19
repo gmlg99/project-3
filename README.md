@@ -11,7 +11,7 @@ air quality.
 The data was retrieved and filtered by borough and pollutant type to include the years of 2009-2022 and the pollutants PM 2.5 and NO2. The csv file was imported to PostgresSQL to be stored. We created a json file that was used to create the line chart, heat map and bar chart.
 
 ### Time Series Chart: Myatt Minn, Charisse Robinson, Grecia Lopez and Kaouther Abid
-To create the Time Series Chart, we used Plotly.js to visualize changes in air pollution across NYC boroughs from 2009 to 2022. Data Processing: The data from air_quality.js was structured to include borough, year, and pollutant type (PM2.5 and NO2). air_quality_plot.js filters the data and updates the visualization based on user selection. Finally, a dropdown menu allows users to select a borough on the time series graph and explore throughout the years.
+To create the Time Series Chart, we used JavaScript and D3.js to visualize changes in air pollution across NYC boroughs from 2009 to 2022. The data from air_quality.js was structured to include borough, year, and pollutant type (PM2.5 and NO2). air_quality_plot.js filters the data and updates the visualization based on user selection. Finally, a dropdown menu in NYC AQTimeSeries.html allows users to select a borough on the time series graph and explore air quality trends over the years.
 
 
 ### Heat Map: Erika Dorsainvil, William Fetter, Chris Lane, and Lorelei Legg
