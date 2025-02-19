@@ -1,11 +1,12 @@
 # Air Quality in New York City
 
 ## Introduction
-Air quality is a critical factor in public health and urban planning, especially in high-density areas like New York City ((5)). This project analyzes air pollution across different boroughs and compares pollutant levels over time ((93)). ​<light>The goal is to visualize trends and provide insights into the impact of air quality</light>​ ((94)).
+Air quality is a critical factor in public health and urban planning, especially in high-density areas like New York City. This project analyzes air pollution across different boroughs and compares pollutant levels over time. The objective is to compare pollutant concentrations and identify the most polluted areas.
+
 
 ## Research Questions
 1.  What are the trends in air pollution across NYC boroughs over time?
-2.  How do different pollutants compare in terms of concentration and impact?
+2.  How do different pollutants compare in terms of concentration?
 3.  Which areas in NYC experience the highest levels of pollution?
 
 ## Data Overview
