@@ -13,7 +13,7 @@ The data was retrieved and filtered by borough and pollutant type to include the
 ### Line Chart:
 
 
-### Heat Map: 
+### Heat Map: Erika Dorsainvil, William Fetter, Chris Lane, and Lorelei Legg
 
 In order to create the Heat Map we used Leaflet.js and D3.js. The map uses the data in the air_quality.js to fetch and prepare the data for the visualization. The heatmap.js is used to processs and apply the data to the heat map. We included a dropdown filter to allow you to filter the data by pollutant type (PM 2.5 and NO2) and year (2009-2022). The dropdown enhances the user experience and allows for clear representation of the data.
 
@@ -22,4 +22,4 @@ In order to create the Heat Map we used Leaflet.js and D3.js. The map uses the d
 
 
 
-# Bar Chart:
+## Bar Chart:
