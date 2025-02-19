@@ -22,4 +22,4 @@ In order to create the Heat Map we used Leaflet.js and D3.js. The map uses the d
 
 
 
-## Bar Chart:
+### Bar Chart:
