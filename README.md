@@ -36,10 +36,11 @@ Air quality is a critical factor in public health and urban planning, especially
 
 ### Bar Chart
 **Contributors:** Rumani K, Melisa Hodzic, Sea Park, Mikaela Carlton
--   **Tools Used:** D3.js
+-   **Tools Used:** D3.js, Chart.js 
 -   **Functionality:**
     -   Compares pollutant concentrations across boroughs
-    -   Uses JSON data to generate bar charts representing pollution levels
+    -   Uses JSON data to generate bar charts representing pollution levels 
+    -   Uses Chart.js (a new Javascript library) to create a 2D bar chart  
 
 ## Data Source
 -   Data retrieved from NYC Open Data: [Air Quality Dataset](https://catalog.data.gov/dataset/air-quality)
@@ -58,8 +59,9 @@ Air quality is a critical factor in public health and urban planning, especially
 │   ├── HeatMap.html           # Heat map visualization
 │   ├── BarChart.html          # Bar chart visualization
 ├── styles
-│   ├── style.css              # Stylesheet
+│   ├── index.css              # Stylesheet for index.html - references image in "others" folder (nyc8_image.jpg)
 │   ├── leafletStyle.css       # Leaflet-specific styles
+|   ├── style.css              # Stylesheet for the majority of HTML's
 ├── database
 │   ├── NYC_Air_Quality.sql    # SQL script for PostgreSQL data storage
 ├── leaflet-heat.js            # Heat map library
