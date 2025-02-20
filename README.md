@@ -59,7 +59,7 @@ Air quality is a critical factor in public health and urban planning, especially
 │   ├── HeatMap.html           # Heat map visualization
 │   ├── BarChart.html          # Bar chart visualization
 ├── styles
-│   ├── index.css              # Stylesheet for index.html - references image in "others" folder (nyc8_image.jpg)
+│   ├── index.css              # Stylesheet for index.html - Uses bootstrap & references image in "others" folder (nyc8_image.jpg)
 │   ├── leafletStyle.css       # Leaflet-specific styles
 |   ├── style.css              # Stylesheet for the majority of HTML's
 ├── database
