@@ -1,20 +1,31 @@
 <html>
     <head>
-        <title>Bar Chart</title>
-        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <title>NYC Air Quality Averages</title>
+        <!-- D3 -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <!-- Add Chart.js -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </head>
     
     <body>
         <center>
-            <h1>Graph Name</h1>
-
-            <div id="BarChartPlot"></div>
+            <h1>Air Quality Averages in NYC Neighborhoods</h1>
+        <br> 
+        <br>
+        <br>
+            
+            
+            <canvas id="barChartPlot" width="200" height="50"></canvas>
+            <br>
+            <br>
+            <br>
             
             <script src="air_quality.js"></script>
-            <script src=""></script>
+            <script src="barChart.js"></script>
             
             <hr>
-            <em>Copyright &copy; 2025 Group 2</em>          
+                    
         </center>
     </body>
+     
 </html>

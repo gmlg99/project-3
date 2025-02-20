@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa; 
+}
+
+.nyc-background {
+    background-image: url('../other/nyc8_image.jpg'); /* image URL -- image in "other" folder */
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-3{
+    color:rgb(60, 3, 3);
+    font-family: "Copperplate, Fantasy";
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+
+    font-family: "Papyrus, Fantasy";
+    color: #C25E3D;
+    font-size: 40px;
+
+}
+
+.btn{
+    color: beige;
+    background-color: #581d1d;
+}

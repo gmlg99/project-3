@@ -1,4 +1,4 @@
-var airQualityData =[
+[
     {
         "unique_id": 410725,
         "indicator_id": 365,
@@ -1540,7 +1540,4 @@ var airQualityData =[
         "start_date": "2022-01-01",
         "data_value": 5.8
     }
-];
-
-// This logs all air quality data when the file loads
-console.log("Loaded Air Quality Data:", airQualityData);
+]
