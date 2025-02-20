@@ -32,20 +32,20 @@ for(let i =0; i < airQualityData.length; i++){
     summary[entry.geo_place_name][entry.name].sum += entry.data_value;
     summary[entry.geo_place_name][entry.name].count++;
      
+}
 
-    //Loops through each borough in summary object 
-    for(let borough in summary){
-        if (!pollutionAverage[borough]) {
-            pollutionAverage[borough] = {}; // Initialize borough if it doesn't exist
-        }
-        //loops through each pollutant within the borough 
-        for(let pollutant in summary[borough]){
+//loops through each borough in summary
+for (let borough in summary) {
+    // Initialize borough in pollutionAverage if not already present
+    if (!pollutionAverage[borough]) {
+        pollutionAverage[borough] = {};
+    }
 
-            let data = summary[borough][pollutant]; //grabs the sum and count data from each object
-            let averageValue = data.sum / data.count; //performs avg calc
-            pollutionAverage[borough][pollutant] = averageValue; // stores value in pollution averages 
-
-        }
+    // Loop through each pollutant 
+    for (let pollutant in summary[borough]) {
+        let data = summary[borough][pollutant]; // Grabs the sum and count for the pollutants
+        // Only calculate average if count is > 0 
+        pollutionAverage[borough][pollutant] = data.count > 0 ? data.sum / data.count : 0;
     }
 }
 
@@ -67,71 +67,70 @@ console.log(fineParticleData);
 
 
 
-/*Brooklyn*/ 
-//let BrooklynValues = Object.values(pollutionAverage.Brooklyn);
-//console.log(BrooklynValues);
+let plot = document.getElementById('barChartPlot').getContext('2d'); 
 
-/*Queens*/ 
-//let QueensValues = Object.values(pollutionAverage.Queens);
-
-/*Bronx*/
-//let BronxValues = Object.values(pollutionAverage.Bronx);
-
-/*Manhattan*/
-//let ManhattanValues = Object.values(pollutionAverage.Manhattan);
-
-/*StatenIsland*/
-//let StatenIslandValues = Object.values(pollutionAverage.StatenIsland);
-
-let NitrogenOxideDataTrace = {
-    x: boroughNames,
-    y: NitrogenOxideData,
-    text: "NO2",
-    name: "Nitrogen dioxide (NO2)",
-    type: "bar",
-    marker: {
-        color: "green"
-    }
-};
-
-
-let FineParticlesDataTrace = {
-    x: boroughNames,
-    y: fineParticleData,
-    text: "PM 2.5",
-    name: "Fine particles (PM 2.5)",
-    type: "bar",
-    marker: {
-        color: "light yellow"
-    }
-};
-
-let layout={
-    title: "Nitrogen Dioxide vs. Fine Particles",
-    barmode: "group",
-    xaxis: {
-        title: "NYC Boroughs", 
-        tickfont: { size: 15, color: "black" },
-        titlefont:{ size: 18, color: "black" },
+new Chart(plot, {
+    type: 'bar', 
+    data: {
+        labels: boroughNames, // X-axis labels: Boroughs
+        datasets: [{
+                label: "Nitrogen Dioxide (NO2)",
+                data: NitrogenOxideData, // NO2 data
+                backgroundColor: 'green',
+                borderColor: 'darkgreen',
+                borderWidth: 1
+            },
+            {
+                label: "Fine Particles (PM 2.5)",
+                data: fineParticleData, // PM 2.5 data
+                backgroundColor: 'orange',
+                borderColor: 'darkorange',
+                borderWidth: 1
+            }
+        ]
     },
-    yaxis: {
-        title: "Average Pollutant Level",
-        tickfont: { size: 15, color: "black" },
-        titlefont:{ size: 18, color: "black" }
-    },
-    font: { family: "Tahoma, sans-serif" },
-    margin: { 
-        l:100,
-        r:50,
-        b:50,
-        t: 50, 
-        pad: 10
+    options: {
+        responsive: true, // Make the chart responsive
+        scales: {
+            x: {
+                title: {
+                    display: true,
+                    text: 'NYC Boroughs'
+                }
+            },
+            y: {
+                title: {
+                    display: true,
+                    text: 'Average Pollutant Level'
+                }
+            }
+        },
+        plugins: {
+            legend: {
+                position: 'top'
+            },
+            title: {
+                display: true,
+                text: 'Nitrogen Dioxide vs. Fine Particles'
+            },
+            tooltip: {
+                callbacks: {
+                    // Format the tooltips to show units
+                    label: function(tooltipItem) {
+                        let value = tooltipItem.raw;
+
+                        value = value.toFixed(2) // to make sure its 2 decimal points only
+
+                        if (tooltipItem.datasetIndex === 0) {
+                            return value + ' ppb'; // For Nitrogen Dioxide (NO2)
+                        } else if (tooltipItem.datasetIndex === 1) {
+                            return value + ' mcg/m³'; // For Fine Particles (PM 2.5)
+                        }
+                        return value;
+                    }
+                }
+             }
+            
+        }
     }
-
-};
-
-let dataTrace = [NitrogenOxideDataTrace, FineParticlesDataTrace];
-
-Plotly.newPlot("BarChartPlot", dataTrace,layout);
-
-
+});
