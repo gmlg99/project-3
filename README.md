@@ -35,11 +35,13 @@ Air quality is a critical factor in public health and urban planning, especially
     -   Dropdown filters allow users to explore data by pollutant type (PM2.5 and NO2) and year (2009-2022)
 
 ### Bar Chart
-**Contributors:** Rumani K, Melisa Hodzic, Sea Park, Mikaela Carlton
--   **Tools Used:** D3.js
+**Contributors: Rumani K, Melisa Hodzic, Sea Park, Mikaela Carlton
+
+- **Tools Used: D3.js, Chart.js
 -   **Functionality:**
-    -   Compares pollutant concentrations across boroughs
-    -   Uses JSON data to generate bar charts representing pollution levels
+    - Compares pollutant concentrations across boroughs
+    - Uses JSON data to generate bar charts representing pollution levels
+    - Uses Chart.js (a new Javascript library) to create a 2D bar chart
 
 ## Data Source
 -   Data retrieved from NYC Open Data: [Air Quality Dataset](https://catalog.data.gov/dataset/air-quality)
