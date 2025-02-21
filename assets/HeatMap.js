@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (heatLayer) {
             myMap.removeLayer(heatLayer);
         }
-        heatLayer = L.heatLayer(heatArray, { radius: 20, blur: 35, maxZoom: 15 });
+        heatLayer = L.heatLayer(heatArray, { radius: 70, blur: 25, maxZoom: 10 });
 
         if (heatVisible) {
             heatLayer.addTo(myMap);
